@@ -1,58 +1,51 @@
-# ecommerce_33
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-## [Normal User]
-- Sign up/Sign in/Sign out
-- Can see hot trend products 
-- Can see recently viewed products
-- Can filter Products via alphabet, classify (product), price, category, rating …
-- Can see his summary (history order, his cart)
-- Can see profile
-- Update profile
-- Can order product
-- Can see information/image/price/number of products
-- Can comment in each product (using facebook comment) (don't use gem)
-- Can see products in the cart when he choice
-- Can rating below each products
-- Can share facebook (don't use gem)
-- Can add more product to cart
-- Can remove product from cart
-- Can suggest more product to admin
-- Can chat with admin (vchat, subiz chat, ........)
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-## [Admin]
-- Can view statistic (chart)
-- Can import product from CSV, excel
-- Can manage all users
-- Can manage all categories (Multi-level Menu)
-- Can manage all product (with images)
-- Can manage all list order
-- Can manage all list request
+## About Laravel
 
-## [System]
-- Send email to custommer with order
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-# Step by step
-1. Design database
-2. Add tasks on redmine + estimate time
-3. Init project
-4. Init models, add relationship
-5. Design static pages
-6. Signup / Login / Logout
-7. Other pulls
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-# Step to update task on redmine
-1. Change Status to "In Progress", "Due date"
-2. Update  "Spent time", "% Done (100)",  before send pull request to trainer 
-3. If trainer COMMENT, change "% Done (80)", after that continue to fix comment; if not, move to step 4
-4. After MERGED, update task infomation "spent time", "% Done (100)", Status to "Resolved" 
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-# Notice: 
-Trừ pull init project và init model, các pull khác không quá 15 files thay đổi
-Các bạn trong team review chéo cho nhau + comment OK vào pull sau khi review xong mà không có lỗi nào
+## Learning Laravel
 
-# [Framgia Coding Standard PHP]
-https://github.com/framgia/coding-standards/tree/master/vn/php
+Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-# PHP-Code-Sniffer check code convention with Sublime Text 
-1. https://gist.github.com/tuanpht/98da682333dd1bc8e4516417653158aa 
-2. https://github.com/wataridori/framgia-php-codesniffer
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
+
+- **[Vehikl](http://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Styde](https://styde.net)**
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
